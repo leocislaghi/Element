@@ -204,7 +204,6 @@ function Index() {
               alt="Lata Element Energy Drink de 473 ml em azul profundo com raio amarelo"
               width={520}
               height={1370}
-              fetchPriority="high"
               className="can-fade animate-in fade-in zoom-in-95 slide-in-from-bottom-6 h-[46svh] w-auto object-contain duration-1000 sm:h-[52svh] md:h-[58svh]"
               style={{ filter: "drop-shadow(0 40px 60px rgba(0,0,0,0.6))" }}
             />
