@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Reveal } from "@/components/Reveal";
-import logo from "@/assets/element-logo.svg.asset.json";
+import lockup from "@/assets/element-lockup.svg.asset.json";
+import mark from "@/assets/element-mark.svg.asset.json";
 import canHero from "@/assets/can-hero.jpg.asset.json";
 import canBack from "@/assets/can-back.jpg.asset.json";
 import canSide from "@/assets/can-side.jpg.asset.json";
@@ -23,7 +24,6 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "preload", as: "image", href: canHero.url, fetchpriority: "high" }],
   }),
   component: Index,
 });
@@ -170,11 +170,11 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5 sm:px-8">
           <a href="#topo" className="pointer-events-auto">
             <img
-              src={logo.url}
+              src={mark.url}
               alt="Logo oficial Element"
-              className="h-8 w-auto sm:h-10"
-              width={160}
-              height={40}
+              className="h-9 w-auto sm:h-11"
+              width={110}
+              height={80}
             />
           </a>
           <span className="eyebrow pointer-events-none hidden sm:block">473 ml</span>
@@ -205,7 +205,7 @@ function Index() {
               width={520}
               height={1370}
               fetchPriority="high"
-              className="animate-in fade-in zoom-in-95 slide-in-from-bottom-6 h-[46svh] w-auto object-contain duration-1000 sm:h-[52svh] md:h-[58svh]"
+              className="can-fade animate-in fade-in zoom-in-95 slide-in-from-bottom-6 h-[46svh] w-auto object-contain duration-1000 sm:h-[52svh] md:h-[58svh]"
               style={{ filter: "drop-shadow(0 40px 60px rgba(0,0,0,0.6))" }}
             />
             <div className="animate-in fade-in slide-in-from-bottom-4 mt-8 text-center delay-200 duration-1000">
@@ -255,7 +255,7 @@ function Index() {
                   style={{ background: "color-mix(in oklab, var(--primary) 18%, transparent)" }}
                 />
                 <img
-                  src={logo.url}
+                  src={lockup.url}
                   alt="Símbolo e logotipo oficial da Element"
                   loading="lazy"
                   width={520}
@@ -353,7 +353,7 @@ function Index() {
                       loading="lazy"
                       width={440}
                       height={580}
-                      className="relative h-[46vh] max-h-[480px] w-auto object-contain"
+                      className="can-fade relative h-[46vh] max-h-[480px] w-auto object-contain"
                       style={{ filter: "drop-shadow(0 30px 45px rgba(0,0,0,0.55))" }}
                     />
                   </figure>
@@ -437,7 +437,7 @@ function Index() {
                 loading="lazy"
                 width={700}
                 height={372}
-                className="w-full object-cover"
+                className="can-fade w-full object-cover"
               />
             </Reveal>
           </div>
@@ -650,7 +650,7 @@ function Index() {
                 loading="lazy"
                 width={540}
                 height={1320}
-                className="h-[50vh] max-h-[520px] w-auto object-contain"
+                className="can-fade h-[50vh] max-h-[520px] w-auto object-contain"
                 style={{ filter: "drop-shadow(0 30px 45px rgba(0,0,0,0.55))" }}
               />
             </Reveal>
@@ -690,7 +690,7 @@ function Index() {
                 loading="lazy"
                 width={480}
                 height={1320}
-                className="h-[48vh] max-h-[500px] w-auto object-contain"
+                className="can-fade h-[48vh] max-h-[500px] w-auto object-contain"
                 style={{ filter: "drop-shadow(0 30px 45px rgba(0,0,0,0.55))" }}
               />
             </Reveal>
@@ -782,7 +782,7 @@ function Index() {
         <Section className="surface text-center">
           <Reveal>
             <img
-              src={logo.url}
+              src={lockup.url}
               alt="Logo Element"
               loading="lazy"
               width={320}
