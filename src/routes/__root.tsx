@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Element é uma proposta de bebida energética natural que une energia, foco, desempenho e uma identidade premium.",
       },
-      { property: "og:title", content: "ELEMENT — Naturalmente forte." },
+      { property: "og:title", content: "ELEMENT — Naturalmente forte1." },
       {
         property: "og:description",
         content:
@@ -91,7 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "ELEMENT — Naturalmente forte." },
+      { name: "twitter:title", content: "ELEMENT — Naturalmente forte1." },
       { name: "twitter:description", content: "Element é uma proposta de bebida energética natural que une energia, foco, desempenho e uma identidade premium." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/02b73f6e7593bbf7a8f0c8fdd08277e0/id-preview-991da958--a7d4dae5-5f2a-43bd-bc82-ee9267b0aad3.lovable.app-1786318774617.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/02b73f6e7593bbf7a8f0c8fdd08277e0/id-preview-991da958--a7d4dae5-5f2a-43bd-bc82-ee9267b0aad3.lovable.app-1786318774617.png" },

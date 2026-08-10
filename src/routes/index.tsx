@@ -10,7 +10,7 @@ import canAcai from "@/assets/can-acai.jpg.asset.json";
 import canCha from "@/assets/can-cha.jpg.asset.json";
 import canIce from "@/assets/can-ice.jpg.asset.json";
 
-const TITLE = "ELEMENT — Naturalmente forte.";
+const TITLE = "ELEMENT — Naturalmente forte1.";
 const DESCRIPTION =
   "Element é uma proposta de bebida energética natural que une energia, foco, desempenho e uma identidade premium.";
 
@@ -211,7 +211,7 @@ function Index() {
               <h1 className="font-display text-[clamp(3rem,14vw,9rem)] leading-[0.85] font-extrabold tracking-[0.02em] text-foreground">
                 ELEMENT
               </h1>
-              <p className="eyebrow mt-4 text-[0.72rem] sm:text-sm">Naturalmente forte.</p>
+              <p className="eyebrow mt-4 text-[0.72rem] sm:text-sm">Naturalmente forte1.</p>
               <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg">
                 Energia que te move.
               </p>
@@ -811,7 +811,7 @@ function Index() {
             <h2 className="font-display text-4xl leading-none font-extrabold sm:text-5xl">
               ELEMENT
             </h2>
-            <p className="eyebrow mt-3">Naturalmente forte.</p>
+            <p className="eyebrow mt-3">Naturalmente forte1.</p>
             <p className="mt-4 text-sm text-muted-foreground">Bebidas energéticas naturais.</p>
           </div>
           <div className="text-sm text-muted-foreground sm:text-right">
