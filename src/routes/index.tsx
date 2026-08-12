@@ -161,7 +161,7 @@ function Hero() {
           alt="Três latas Element de 473 mL em azul profundo com grafismo de raio amarelo"
           width={1651}
           height={616}
-          className="photo-blend w-[135%] max-w-none object-contain sm:w-[110%] md:w-full md:max-w-5xl"
+          className="photo-blend ml-[-14%] w-[150%] max-w-none object-contain sm:ml-0 sm:w-[112%] md:w-full md:max-w-6xl"
           style={{
             transform: `scale(${1 + p * 0.18}) translateY(${p * -20}px)`,
             opacity: 1 - p * 0.55,
