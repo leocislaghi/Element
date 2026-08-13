@@ -8,6 +8,7 @@ import lockup from "@/assets/element-lockup.svg.asset.json";
 import mark from "@/assets/element-mark.svg.asset.json";
 import identidade from "@/assets/brand-identity.jpg.asset.json";
 import trio from "@/assets/trio-cans.jpg.asset.json";
+import trioMobile from "@/assets/trio-cans-mobile.jpg.asset.json";
 import imgGuarana from "@/assets/flavor-guarana.jpg.asset.json";
 import imgAcai from "@/assets/flavor-acai.jpg.asset.json";
 import imgCha from "@/assets/flavor-cha.jpg.asset.json";
@@ -156,18 +157,21 @@ function Hero() {
 
       {/* imagem das três latas */}
       <div className="absolute inset-x-0 top-[46%] -z-10 flex -translate-y-1/2 justify-center">
-        <img
-          src={trio.url}
+        <picture>
+          <source media="(min-width: 640px)" srcSet={trio.url} />
+          <img
+          src={trioMobile.url}
           alt="Três latas Element de 473 mL em azul profundo com grafismo de raio amarelo"
           width={1651}
           height={616}
-          className="photo-blend ml-[-20%] w-[125%] max-w-none object-contain sm:ml-0 sm:w-[112%] md:w-full md:max-w-6xl"
+          className="photo-blend w-full max-w-none object-contain sm:w-[112%] md:w-full md:max-w-6xl"
           style={{
             transform: `scale(${1 + p * 0.18}) translateY(${p * -20}px)`,
             opacity: 1 - p * 0.55,
             transition: "transform 120ms linear",
           }}
-        />
+          />
+        </picture>
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-5 pt-24 pb-10 sm:px-8">
