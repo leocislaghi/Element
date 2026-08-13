@@ -300,16 +300,6 @@ function Index() {
 
         {/* MARCA */}
         <Section id="marca" className="overflow-hidden">
-          <Reveal className="flex justify-center">
-            <img
-              src={identidade.url}
-              alt="Identidade oficial Element — símbolo, logotipo e assinatura Naturalmente Forte"
-              loading="lazy"
-              width={1651}
-              height={616}
-              className="photo-blend w-full max-w-4xl object-contain"
-            />
-          </Reveal>
 
           <div className="mt-14 grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:gap-20">
             <Reveal>
