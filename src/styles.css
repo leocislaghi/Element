@@ -212,3 +212,8 @@
   text-transform: uppercase;
   color: color-mix(in oklab, var(--foreground) 55%, transparent);
 }
+
+/* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}
